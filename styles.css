@@ -1,0 +1,60 @@
+.white {
+    color: aliceblue;
+}
+
+.padding {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background: rgb(24, 44, 68);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px
+}
+
+li {
+
+}
+
+.one {
+    background: rgb(24, 44, 68);
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
+
+
+
+.img {
+    width: 600px;
+    height: 200px;
+    background: gray;
+}
+
+h2 {
+    text-align: center;
+}
+
+.square-container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
